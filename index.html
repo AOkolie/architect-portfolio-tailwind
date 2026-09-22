@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/3d45cc0ddd.js" crossorigin="anonymous"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #38f776; /*Tailwind's green-400*/ 
+            --color-secondary:#2986CC ; /* Tailwind's blue-600 #2986CC*/
+        } </style>
+</head>
+<body class="m-8">
+        <div class="flex border-b-2 border-black p-1 align-middle">
+            <p class="mr-auto ml-4 items-center flex">Anthony_portfolio_v1</p>
+
+            <nav class="flex gap-6 mr-auto items-center">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        <div class="flex items-center">
+        <i class="fa-solid fa   -magnifying-glass align-middle"></i>
+        <p class="text uppercase text-white  bg-black m-1 text-xs mx-4 px-4 py-2">download_cv</p>
+        </div>
+        <!--Stopped 39mins module 3.5 of html course--> 
+        <!-- Discuss why the next icon is not displaying\ -->
+
+        </div>
+
+        <p class="text uppercase m-2">Selected works 2023 - 24 </p>
+        <div class="block md:flex tracking-tight"> 
+            <div class="text-7xl leading-relaxed md:text-8xl leading-[0.9] uppercase font-black">Architectural <br> integrity & <br>Spatial Logic.</div>
+
+            <div class="ml-auto mr-8">
+                <p class="border-l-4 border-gray-400 p-4 leading-6">A focused investigation into modular <br> structures and technical precision <br> within high-density urban <br>environments. Designed for clarity, <br>authority, and high-performance <br>utility</p>
+                <div class="flex gap-6 mt-8  border-left-solid">
+                    <button class="border-2 border-pink-500 transition duration-300 ease-in-out py-2 px-5 text uppercase bg-black text-white hover:bg-green-300">Explore <br> Portfolio</button>
+                    <button class="border-2 border-pink-500 transition duration-300 ease-in-out py-2 px-5 text uppercase bg-primary gray-10 hover:bg-secondary   hover:text-white">Our <br> Philosophy</button>
+                </div> <!--green-300 This was the specified bg color of the button b4 I used the custom property (secondary to change)-->
+            </div>
+       </div>
+
+    <div class="flex justify-between  bg-gray-100 mt-8 border-y-2 border-gray-300 p-4 divide-x divide-gray-300">
+            <div class="flex-1 m-1 p-6">
+                <p class="text uppercase">Projects Completed</p>
+                <p class="text-3xl font-black">42+</p>
+            </div>
+            <div class="flex-1 m-1 p-6">
+                <p class="text uppercase">Global Awards</p>
+                <p class="text-3xl font-black">12</p>
+            </div>
+            <div class="flex-1 m-1 p-6">
+                <p class="text uppercase">Technical Certs</p>
+                <p class="text-3xl font-black">08</p>
+            </div>
+            <div class="flex-1 m-1 p-6">
+                <p class="text uppercase">Design Labs</p>
+                <p class="text-3xl font-black">03</p>
+            </div>
+       </div>
+
+       <div class="grid grid-cols-4 grid-rows-2 "> <!-- class="grid grid-cols-4 grid-rows-2 " this is how the class was before -->
+
+            <div class="col-span-2 row-span-2 border-2 bg-[url('chicago.jpg')] bg-cover">
+                <p class="text uppercase text-white mt-64">Project 001</p>
+                <h1 class="text-white uppercase text-4xl font-black">Themonolithpavilion</h1>
+                <p class="text-white mt-4">Exploration of concrete as a fluid yet structural element in public transit hubs.</p>
+
+                <button class="bg-green-300 m-4 text-black px-4 py-2 rounded-md hover:bg-pink-300">
+                    <a class="text-white uppercase" href="#casestudy.html">View Case Study</a>
+                </button>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+            </div>
+        <div class="col-span-2 col-start-3 row-start-1  row-span-1 border-2 bg-[url('architecture.jpg')] bg-cover">
+            <p class="text uppercase text-gray-300 m-4 ">Methodology</p>
+            
+            <h1 class="text-2xl uppercase text-gray-400 m-4">Bim integration and structural <br> analytics</h1>
+
+            <p class="text-gray-300 m-4">Every project follows a rigid system of 8px increments, ensuring mathematical perfection from initial concept to the final blueprint.</p>
+
+            <div class="flex  divide-x mt-56 items-end gap-4">
+                <div class="flex-1 text uppercase border-b-4 border-r-0 border-neutral-500">
+                    <h1 class="text-white m-1">Cad</h1>
+                </div>
+                <div class="flex-1 text uppercase border-b-4 border-r-0 border-neutral-600">
+                    <h1 class="text-white m-1">3D Mapping</h1>
+                </div>
+                <div class="flex-1 text uppercase border-b-4 border-neutral-400">
+                    <h1 class="text-white m-1">Sustainability</h1>
+                </div>
+            </div>
+
+        </div>
+            <div class="col-start-3 row-start-2 border-2">
+                <div class=" relative size-full border-r-2 p-6 border-gray-400 bg-gray-100 text-uppercase mr-8"> 
+                    <p class="text-gray-400 uppercase p-">Lab Archive</p>
+                    <p class="text-black font-bold uppercase">Shadow Studies Archive</p>
+
+                    <div class="absolute bottom-0 right-0 border w-32 h-32 bg-black mb-0">
+
+                    </div>
+                </div>
+               
+                <!-- <img src="inquiry.jpg"> -->
+            </div>
+            <div class="border-2 bg-black text-white uppercase size-full pt-48 ml-1 pl-8">
+                <i class="fa-solid fa-compass-drafting "></i>
+                    <p>Join the <br>architectural  <br>dialogue</p>
+                <!-- <img src="shadow-studies.jpg"> -->
+
+                <button class="border-2 border-white uppercase transition duration-300 ease-in-out my-4 p-4 hover:bg-pink-300">Submit Inquiry</button>
+            </div>
+             
+       </div>
+
+       <div>
+        <div>
+            <div class="flex text-xs uppercase p-3">
+                <p class="mr-auto">Index</p>
+                <p>Sort by</p>
+            </div>
+
+            <div class="flex text uppercase mt-2 border-b-2 border-gray-600 p-3">
+                <p class="text-3xl font-black mr-auto">Current Projects</p>
+                <p>Year: 2024</p>
+            </div>
+        </div>
+        <div class="flex text uppercase justify-between p-4 border-b-2 border-gray-300 gap-1"> 
+            <div>
+                <p>001</p>
+            </div>
+            <div>
+                <p class="text-2xl font-black">Voltex Housing Complex</p>
+            </div>
+            <div>
+                <p class="text-gray-400">Stockholm, SE</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-200 p-2">Urban</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-300 p-2">Residential</p>
+            </div>
+        </div>
+        <div class="flex text uppercase justify-between p-4 border-b-2 border-gray-300 gap-1">
+             <div>
+                <p>002</p>
+            </div>
+            <div>
+                <p class="text-2xl font-black">The Linear Observatory</p>
+            </div>
+            <div>
+                <p class="text-gray-400">Atacama, CL</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-200 p-2">Science</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-300 p-2">Minimalist</p>
+            </div>
+        </div>
+        <div class="flex text uppercase justify-between p-4 border-b-2 border-gray-300 gap-1">
+            <div>
+                <p>003</p>
+            </div>
+            <div>
+                <p class="text-2xl font-black ps-0">Brutalist Altrium</p>
+            </div>
+            <div>
+                <p class="text-gray-400">Berlin, DE</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-200 p-2">Public</p>
+            </div>
+            <div>
+                <p class="text-xs font-black bg-gray-300 p-2">Intensive</p>
+            </div>
+       </div>
+
+       <div class="bg-black text-white mx-0 py-4">
+        <h1 class="text-6xl uppercase text-center my-32 mx-8">Stay Updated on the latest <br>Structural Investigations</h1>
+
+        <div class="flex mx-96 border-b-2 border-gray-300 pe-0 gap-4">
+            <p>Email</p>
+            <i class="fa-solid fa-arrow-right ml-auto"></i>
+        </div>
+         <div class="flex text uppercase gap-4 mt-8 justify-center my-32">
+                <p><a href="">Journal</a></p>
+                <p><a href="">Notes</a></p>
+                <p><a href="">Twitter</a></p>
+            </div>
+       </div>
+
+        <footer>
+            <div class="flex text-xs uppercase h-16 border-2 items-center p-2 bg-gray-200">
+                <p class="font-black">
+                    &copy;2024 architectural portfolio. All Rights Reserved
+                </p>
+
+                <ul class="flex gap-6 ml-auto">
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+        </footer>  
+
+        <!-- <div class="col-span-2 row-span-2 border-2"><img src="pavilion.jpg"></div> -->
+
+        <!-- <img src="methodology.jpg"> -->
+</body>
+</html>
